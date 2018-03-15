@@ -8,8 +8,35 @@
     <link rel="stylesheet" href="/styles/main.css">
     
 </head>
-<body>
-    <h1>Markup here</h1>
+<body> <!-- body: height: 1044px width: 1280px -->
+    <div class="fader"></div>
+    <div id="wrapper">
+        <header><!-- header: height: 72px width: 1280px (inherit) -->
+            <div class="headerlogo"><!-- logo div -->
+                <img src="/images/logo.png"></img>
+            </div>
+            <nav class="headernavbar" id="headernav"><!-- heading navigation bar -->
+                <script type="text/javascript" src="/js/loadnavbar.js"></script><!-- buttons: width: 132px -->
+            </nav>
+            <div class="headersearch"><!-- search icon -->
+                <img id="searchbutton" src="https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_search_white_48px.svg"></img>
+            </div>
+            <div id="searchbarcontainer" class="hidden">
+                <input id="searchbar" class="secondaryfont hidden" placeholder="Enter your search here..."></input>
+            </div>
+        </header>
+        <section><!-- main content: height: 735px -->
+            <div class="sectionmask"></div>
+            <div class="container">
+                <div class="headlinedesktopfont">Thoughtful, Open, Adaptable, Smart, Trusted.</div>
+                
+            </div>
+            <div class="line"></div>
+        </section>
+        <footer>
+            <p class="bodycopy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+        </footer>
+    </div>
     <script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>

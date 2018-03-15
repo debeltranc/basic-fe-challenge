@@ -1,1 +1,249 @@
 /* Styles here! */
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0px auto;
+    height: 1044px;
+    width: 1280px;
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    height: 72px;
+    width: 1280px;
+    background-color: #ff3f10;
+    z-index: 5;
+}
+
+li {
+    height: inherit;
+    list-style-type: none;
+}
+
+.headerlogo {
+    height: inherit;
+    width: 164px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.headernavbar {
+    height: inherit;
+    width: 900px;
+    float: left;
+}
+
+.activemenu {
+    color: #ff3f10 !important;
+    background-color: #ffffff;
+}
+
+.listmenu {
+    display: inline-flex;
+    margin: 0px;
+}
+
+.listmenu > li > a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.listmenu > li:hover > a{
+    color: #ff3f10 !important;
+    background-color: #ffffff !important;
+    text-decoration: none;
+}
+
+.activesubmenu {
+    display: flex !important;
+    color: #ffffff;
+    background-color: #ff3f10;
+}
+
+.navsubmenu > li > a {
+    display: block;
+    padding: 8px;
+    color: #ff3f10;
+    text-decoration: none;
+}
+
+.navsubmenu > li:hover > a, .navsubmenu > li:hover{
+    color: #ffffff !important;
+    background-color: #ff3f10 !important;
+    text-decoration: none;
+}
+
+.navbutton {
+    display: inline-block;
+    width: 132px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+}
+
+.navsubmenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0px;
+    z-index: 5;
+}
+
+.shownavsubmenu {
+    display: flex;
+}
+
+.headersearch {
+    width: 72px;
+    height: inherit;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbutton {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#searchbarcontainer {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 570px;
+}
+
+#searchbar{
+    box-sizing: border-box;
+    background-color: #ff3f10;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #ffffff;
+    color: white;
+    line-height: 0px !important;
+    width: inherit;
+}
+
+::placeholder {
+    font-family: Copernicus-Book;
+    font-size: 16px;
+    line-height: 48px;
+    color: #ffffffaa;
+    font-style: italic;
+}
+
+section {
+    height: 735px;
+    width: inherit;
+    background-image: url(../images/background.jpg);
+    background-repeat: round;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionmask {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background-color: #000000da;
+    z-index: 2;
+}
+
+.faderonselection {
+    display: block !important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00000080;
+    z-index: 4;
+}
+
+.fader {
+    display: none;
+}
+
+.container {
+    position: relative;
+    height: 260px;
+    width: 631px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 112px;
+    height: 12px;
+    background-color: #ff3f10;
+    z-index: 3;
+}
+
+.container > div {
+    height: inherit;
+    width: inherit;
+    color: white;
+    z-index: 3;
+}
+
+footer {
+    height: 237px;
+    width: inherit;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer > p {
+    margin-top: 32px;
+    width: 956px;
+    height: 111px;
+}
+
+.primaryfont {
+    font-family: HUGEAvantGardeBold;
+    font-size: 21px;
+    font-weight: bold;
+    /*line-height: 48px;*/
+}
+
+.secondaryfont {
+    font-family: Copernicus-Book;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+.headlinedesktopfont {
+    font-family: HUGEAvantGardeBold;
+    font-size: 63px;
+    font-weight: bold;
+    /*line-height: 132px;*/
+}
+
+.bodycopydesktopfont {
+    font-family: Copernicus-Book;
+    font-size: 16px;
+    line-height: 48px;
+}
