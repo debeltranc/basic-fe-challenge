@@ -14,7 +14,7 @@ window.onclick = function(event) {
   }
   
   if(event.target.matches("#searchbutton")){
-    console.log("search");
+    //console.log("search");
     var headernav = document.getElementById("headernav");
     var searchbarcontainer = document.getElementById("searchbarcontainer");
     var searchbar = document.getElementById("searchbar");
